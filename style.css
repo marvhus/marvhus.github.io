@@ -130,3 +130,72 @@ p {
     font-size: 1.1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 1150px) {
+    #projects, #about {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    #projects, #about {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header > #title {
+        font-size: 2.5rem;
+    }
+    header > nav > a {
+        font-size: 1.5rem;
+    }
+    header > nav {
+        width: 7rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    #projects, #about {
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .house {
+        font-size: 3rem;
+    }
+    header > #title {
+        font-size: 1.7rem;
+    }
+    header > nav > a {
+        font-size: 1.2rem;
+    }
+    header > nav {
+        width: 5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    #projects, #about {
+        width: 16rem;
+    }
+}
