@@ -4,62 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        @import url('./css/base.css');
-        @import url('./css/navbar.css');
-        @import url('./css/grid.css');
-    </style>
-    <script src="./js/loadScript.js"></script>
-    <script>
-        loadScript('./js/navbar.js')
-    </script>
+    <title>marvhus</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#" class="house">⌂</a>
+    <header>
+        <div id="title">marvhus</div>
+        <br>
+        <nav>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+        </nav>
+    </header>
 
-    <nav>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+    <div class="spacer"></div>
+
+    <div class="center">
+        <div id="about">
+            <h2>About</h2>
+            <p>
+                Hello, I'm marvhus, also known as Mart
+                <br>
+                I'm a Programmer, GameDev, and CyberSec entusiast.
+            </p>
         </div>
+    </div>
 
-        <ul class="nav-links">
-            <p class="left">Home</p>
-            <div class="right">
-                <li class="list-item">
-                    <a class="link" href="./index.html">Home</a>
-                </li>
-    
-                <li class="list-item">
-                    <a class="link" href="./projects.html">Projects</a>
-                </li>
-    
-                <li class="list-item">
-                    <a class="link" href="./contact.html">Contact</a>
-                </li>
-                
-                <li class="list-item">
-                    <a class="link" href="./youtube.html" class="link">YouTube</a>
-                </li>
-            </div>
-        </ul>
-    </nav>
+    <div class="spacer"></div>
 
-    <section>
-        <div class="grid">
-            <div class="box" height="2rem">
-                <p>
-                    Welcome to my website!
-                </p>
-            </div>
-            <div class="box" height="10rem">
-                <p>
-                    This is a website where I post about my projects.
-                </p>
-            </div>
+    <div class="center">
+        <div id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li class="project">
+                    <a href="https://github.com/AlexKollar/Cryptex"><h3>Cryptex</h3></a>
+                    <p>Cryptex is a croptography program I am helping develop.</p>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/marvhus/sgit"><h3>sgit</h3></a>
+                    <p>making git more secure, because GitHub wont.</p>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/marvhus/menc"><h3>menc</h3></a>
+                    <p>An encryption algorythm I made myself for fun.</p>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/marvhus/snake_game"><h3>snake_game</h3></a>
+                    <p>Snake made in rust using the Bevy game engine.</p>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/marvhus/GitReaper"><h3>GitReaper</h3></a>
+                    <p>Something I made to scrape usernames and emails from git commits.</p>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/marvhus/marvhus.github.io"><h3>marvhus.github.io</h3></a>
+                    <p>This website.</p>
+                </li>
+            </ul>
         </div>
-    </section>
-
+    </div>
 </body>
 </html>

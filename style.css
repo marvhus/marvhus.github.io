@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+    background-color: #232628;
+    color: white;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.house {
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    font-size: 4rem;
+    left: 1%;
+    top: -2%;
+    transition: 0.4s ease-in-out;
+}
+.house:hover {
+    color: #ff7a7a;
+}
+
+header > #title {
+    color: #ff7a7a;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.4s ease-in-out;
+}
+
+header > nav {
+    /*Positioning*/
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    /*Sizing*/
+    width: 25rem;
+    height: 2rem;
+
+    /*Font stuff*/
+    font-size: 2rem;
+}
+
+header > nav > a {
+    margin: 0px 30px;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    padding: 5px 8px;
+    border-bottom: 2px solid transparent;
+}
+header > nav > a:hover {
+    color: #ff7a7a;
+    border-bottom: 2px solid #ff7a7a;
+}
+
+.spacer {
+    height: 35rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about, #projects {
+    border-top: 2px solid #fff;
+    width: 50rem;
+    text-align: center;
+}
+
+#projects > ul {
+    list-style: none;
+    text-align: center;
+}
+#projects > ul > .project {
+    padding: 0.2rem;
+    border: 3px solid #fff;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#projects > ul > .project > a {
+    text-decoration: none;
+    color: #fff;
+}
+#projects > ul > .project > a > h3 {
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    border-bottom: 3px solid #eee;
+    height: 3rem;
+}
+#projects > ul > .project > a > h3:hover {
+    color: #5cabb7;
+}
+
+h2 {
+    color: #ff7a7a;
+    font-size: 2rem;
+    text-align: center;
+}
+h3 {
+    font-size: 1.7rem;
+    text-align: center;
+    color: #fff;
+}
+p {
+    font-size: 1.1rem;
+    text-align: center;
+}
