@@ -85,6 +85,7 @@ header > nav > a:hover {
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: purple;
 }
 
 #about, #projects {
@@ -93,6 +94,7 @@ header > nav > a:hover {
     text-align: center;
     align-items: center;
     align-content: center;
+    background-color: red;
 }
 
 #projects > ul {
