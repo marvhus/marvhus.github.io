@@ -98,6 +98,7 @@ header > nav > a:hover {
 }
 
 #projects > ul {
+    display: flex;
     list-style: none;
     text-align: center;
     align-items: center;
