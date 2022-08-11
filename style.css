@@ -109,6 +109,7 @@ header > nav > a:hover {
     border: 3px solid #fff;
     border-radius: 1rem;
     margin: 2rem;
+    background-color: pink;
 }
 #projects > ul > .project > a {
     text-decoration: none;
