@@ -90,6 +90,8 @@ header > nav > a:hover {
     border-top: 2px solid #fff;
     width: 50rem;
     text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 #projects > ul {
