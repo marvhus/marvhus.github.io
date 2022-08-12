@@ -85,7 +85,6 @@ header > nav > a:hover {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: purple;
 }
 
 #about, #projects {
@@ -94,7 +93,6 @@ header > nav > a:hover {
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: red;
 }
 
 #projects > ul {
@@ -104,7 +102,6 @@ header > nav > a:hover {
     text-align: center;
     align-items: center;
     align-content: center;
-    background-color: aqua;
     justify-content: space-evenly;
 }
 #projects > ul > .project {
@@ -112,7 +109,6 @@ header > nav > a:hover {
     border: 3px solid #fff;
     border-radius: 1rem;
     margin: 2rem;
-    background-color: pink;
 }
 #projects > ul > .project > a {
     text-decoration: none;
