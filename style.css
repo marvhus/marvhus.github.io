@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
 
+* {
+    --color1: #e6e1c5;
+    --color2: #0081a7;
+    --color3: #3c3744;
+    --color4: #5a9367;
+    --color5: #e76f51;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,8 +18,8 @@ html {
 }
 
 body {
-    background-color: #232628;
-    color: white;
+    background-color: var(--color3);
+    color: var(--color1);
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -27,7 +35,7 @@ header {
 }
 
 .house {
-    color: #fff;
+    color: var(--color1);
     text-decoration: none;
     position: fixed;
     font-size: 4rem;
@@ -36,11 +44,12 @@ header {
     transition: 0.4s ease-in-out;
 }
 .house:hover {
-    color: #ff7a7a;
+    color: var(--color5);
 }
 
 header > #title {
-    color: #ff7a7a;
+    color: var(--color2);
+    margin-left: -3rem;
     text-align: center;
     font-size: 3rem;
     transition: 0.4s ease-in-out;
@@ -71,8 +80,8 @@ header > nav > a {
     border-bottom: 2px solid transparent;
 }
 header > nav > a:hover {
-    color: #ff7a7a;
-    border-bottom: 2px solid #ff7a7a;
+    color: var(--color5);
+    border-bottom: 2px solid var(--color5);
 }
 
 .spacer {
@@ -88,7 +97,7 @@ header > nav > a:hover {
 }
 
 #about, #projects {
-    border-top: 2px solid #fff;
+    border-top: 2px solid var(--color4);
     width: 50rem;
     text-align: center;
     align-items: center;
@@ -96,6 +105,7 @@ header > nav > a:hover {
 }
 
 #projects > ul {
+    margin-left: -2rem;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -105,34 +115,36 @@ header > nav > a:hover {
     justify-content: space-evenly;
 }
 #projects > ul > .project {
-    padding: 0.2rem;
-    border: 3px solid #fff;
+    padding: 1rem;
+    width: 30rem;
+    border: 3px solid var(--color4);
     border-radius: 1rem;
     margin: 2rem;
 }
 #projects > ul > .project > a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color4);
 }
 #projects > ul > .project > a > h3 {
+    color: var(--color4)
     text-align: center;
     transition: 0.4s ease-in-out;
-    border-bottom: 3px solid #eee;
+    border-bottom: 3px solid var(--color3);
     height: 3rem;
 }
 #projects > ul > .project > a > h3:hover {
-    color: #5cabb7;
+    color: var(--color2);
 }
 
 h2 {
-    color: #ff7a7a;
+    color: var(--color5);
     font-size: 2rem;
     text-align: center;
 }
 h3 {
     font-size: 1.7rem;
     text-align: center;
-    color: #fff;
+    color: var(--color1);
 }
 p {
     font-size: 1.1rem;
@@ -146,6 +158,9 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    #projects > ul > .project {
+        width: 20rem;
+    }
     h3 {
         font-size: 1.4rem;
     }
@@ -158,6 +173,9 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    #projects > ul > .project {
+        width: 15rem;
+    }
     header > #title {
         font-size: 2.5rem;
     }
