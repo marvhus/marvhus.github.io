@@ -9,64 +9,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#" class="house">⌂</a>
-    <header>
-        <div id="title">marvhus</div>
-        <br>
-        <nav>
-            <a href="#about">about</a>
-            <a href="#projects">projects</a>
-            <a href="https://marvhus.github.io/my-blogg">my blogg</a>
-        </nav>
-    </header>
 
-    <div class="spacer"></div>
-
-    <div class="center">
-        <div id="about">
-            <h2>About</h2>
-            <p>
-                Hello, I'm marvhus, also known as Martin or Mart.
-                <br>
-                I'm a Programmer, Game Dev, Artist, and CyberSec enthusiast.
-                <br>
-                Well that's about all I have to say about me for now.
-            </p>
-        </div>
+<nav>
+    <div class="flex-container menu-items">
+        <a class="menu-item" href="#home">Home</a>
+        <a class="menu-item" href="#about">About</a>
+        <a class="menu-item" href="#projects">Projects</a>
+        <a class="menu-item" href="https://marvhus.github.io/my-blogg">Blogg</a>
     </div>
-
-    <div class="spacer"></div>
-
-    <div class="center">
-        <div id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li class="project">
-                    <a href="https://github.com/SSGorg/Cryptex"><h3>Cryptex</h3></a>
-                    <p>Cryptex is a croptography program I am helping develop.</p>
-                </li>
-                <li class="project">
-                    <a href="https://github.com/marvhus/sgit"><h3>sgit</h3></a>
-                    <p>making git more secure, because GitHub wont.</p>
-                </li>
-                <li class="project">
-                    <a href="https://github.com/marvhus/menc"><h3>menc</h3></a>
-                    <p>An encryption algorythm I made myself for fun.</p>
-                </li>
-                <li class="project">
-                    <a href="https://github.com/marvhus/snake_game"><h3>snake_game</h3></a>
-                    <p>Snake made in rust using the piston 2d library.</p>
-                </li>
-                <li class="project">
-                    <a href="https://github.com/marvhus/GitReaper"><h3>GitReaper</h3></a>
-                    <p>Something I made to scrape usernames and emails from git commits.</p>
-                </li>
-                <li class="project">
-                    <a href="https://github.com/marvhus/marvhus.github.io"><h3>marvhus.github.io</h3></a>
-                    <p>This website.</p>
-                </li>
-            </ul>
-        </div>
-    </div>
+</nav>
+<main>
+    <section id="home">
+        <p id="section-title">Wellcome</p>
+        <p>This is my website.</p>
+        <p>I made this for fun, <br> only using HTML, and CSS.</p>
+    </section>
+    <section id="about">
+        <p id="section-title">About me</p>
+        <p> 
+            I am a developer. 
+            <br><br>
+            I make various things for fun.
+            <br> 
+            And I do that in a plethora of programming languages.
+        </p>
+    </section>
+    <section id="projects">
+        <p id="section-title">Projects</p>
+        <p> 
+            You can find my public projects on my 
+            <a class="fancy-link" href="https://github.com/marvhus">GitHub</a>
+            profile.
+    </section>
+</main>
+  
 </body>
 </html>
