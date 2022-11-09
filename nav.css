@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    text-align: center;
+    justify-content: space-evenly;
+
+    background-color: #363A57;
+    height: 100vh;
+    opacity: 0;
+    animation:
+        fadeInUp 
+        1s 
+        ease calc(var(--typing-duration) + 2s)
+        forwards;
+    transform: translateX(-5vw);
+}
+nav > a {
+    color: #E1BB80;
+    transform: rotate(90deg);
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all ease 0.2s;
+    font-weight: 700;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+nav > a:hover {
+    opacity: 1;
+    transform: scale(1.2) rotate(90deg);
+}

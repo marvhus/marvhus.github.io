@@ -1,0 +1,26 @@
+#articles {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10vh;
+}
+article {
+    background-color: #44475F;
+    border-radius: 2rem;
+
+    padding: 2vh 10vw 2vh 10vw;
+
+    height: 40vh;
+    width: 30vw;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+#articles > a {
+    text-decoration: none;
+    color: #D2CBB0;
+}
+article:hover {
+    transform: scale(1.1);
+}
